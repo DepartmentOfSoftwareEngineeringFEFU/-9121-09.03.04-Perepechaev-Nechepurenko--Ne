@@ -13,26 +13,26 @@
 
 ### 1. Запуск фронтенд-части (React)
 1. Перейдите в директорию фронтенда:
-   'cd frontend'
+   `cd frontend`
 
 2. Установите зависимости:
-   'npm install'
+   `npm install`
 
 3. Запустите сервер разработки:
-   npm run dev
+   `npm run dev`
 ### Перейдите в директорию бэкенда
-cd backend
+`cd backend`
 
 1. Создайте и активируйте виртуальное окружение
-python -m venv venv
+`python -m venv venv`
 
 2. Активация для Windows:
-venv\Scripts\activate
+`venv\Scripts\activate`
  Активация для Linux/MacOS:
-source venv/bin/activate
+`source venv/bin/activate`
 
 3. Установите зависимости
-pip install fastapi uvicorn python-multipart
+`pip install fastapi uvicorn python-multipart`
 
 4. Запустите приложение
-uvicorn main:app --reload
+`uvicorn main:app --reload`
