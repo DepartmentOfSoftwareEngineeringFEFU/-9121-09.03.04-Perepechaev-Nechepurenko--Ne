@@ -28,12 +28,11 @@ python -m venv venv
 
 2. Активация для Windows:
 venv\Scripts\activate
-
-3. Активация для Linux/MacOS:
+ Активация для Linux/MacOS:
 source venv/bin/activate
 
-4. Установите зависимости
+3. Установите зависимости
 pip install fastapi uvicorn python-multipart
 
-5. Запустите приложение
+4. Запустите приложение
 uvicorn main:app --reload
