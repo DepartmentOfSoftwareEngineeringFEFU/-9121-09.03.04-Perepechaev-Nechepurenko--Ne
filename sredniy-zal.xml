@@ -1,0 +1,544 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<model cx = "30" cy = "30" cz = "7.5" name = "Средний зал">
+  <domain name = "arch_ac">
+    <attenuation>0</attenuation>
+  </domain>
+  <polyobject name = "Стена 1">
+    <face>
+      <vertex x = "0" y = "11.25" z = "7.5"/>
+      <vertex x = "0" y = "0" z = "7.5"/>
+      <vertex x = "0" y = "0" z = "0"/>
+      <vertex x = "0" y = "11.25" z = "0"/>
+      <domain name = "arch_ac">
+        <absorption> <!--Плиты-->
+          <absorption_row frequency = "125">0.25</absorption_row>
+          <absorption_row frequency = "250">0.15</absorption_row>
+          <absorption_row frequency = "500">0.06</absorption_row>
+          <absorption_row frequency = "1000">0.05</absorption_row>
+          <absorption_row frequency = "2000">0.04</absorption_row>
+          <absorption_row frequency = "4000">0.04</absorption_row>
+        </absorption>
+      </domain>
+    </face>
+    <face>
+      <vertex x = "0" y = "12" z = "7.5"/>
+      <vertex x = "0" y = "11.25" z = "7.5"/>
+      <vertex x = "0" y = "11.25" z = "0"/>
+      <vertex x = "0" y = "12" z = "0"/>
+      <domain name = "arch_ac">
+        <absorption> <!--Штукатурка-->
+          <absorption_row frequency = "125">0.04</absorption_row>
+          <absorption_row frequency = "250">0.04</absorption_row>
+          <absorption_row frequency = "500">0.04</absorption_row>
+          <absorption_row frequency = "1000">0.06</absorption_row>
+          <absorption_row frequency = "2000">0.06</absorption_row>
+          <absorption_row frequency = "4000">0.03</absorption_row>
+        </absorption>
+      </domain>
+    </face>
+    <face>
+      <vertex x = "0" y = "18" z = "2.5"/>
+      <vertex x = "0" y = "12" z = "2.5"/>
+      <vertex x = "0" y = "12" z = "0"/>
+      <vertex x = "0" y = "18" z = "0"/>
+      <domain name = "arch_ac">
+        <absorption> <!--Штукатурка-->
+          <absorption_row frequency = "125">0.04</absorption_row>
+          <absorption_row frequency = "250">0.04</absorption_row>
+          <absorption_row frequency = "500">0.04</absorption_row>
+          <absorption_row frequency = "1000">0.06</absorption_row>
+          <absorption_row frequency = "2000">0.06</absorption_row>
+          <absorption_row frequency = "4000">0.03</absorption_row>
+        </absorption>
+      </domain>
+    </face>
+    <face>
+      <vertex x = "0" y = "18" z = "6.5"/>
+      <vertex x = "0" y = "12" z = "6.5"/>
+      <vertex x = "0" y = "12" z = "2.5"/>
+      <vertex x = "0" y = "18" z = "2.5"/>
+      <domain name = "arch_ac">
+        <absorption> <!--Экран-->
+          <absorption_row frequency = "125">0.04</absorption_row>
+          <absorption_row frequency = "250">0.07</absorption_row>
+          <absorption_row frequency = "500">0.13</absorption_row>
+          <absorption_row frequency = "1000">0.22</absorption_row>
+          <absorption_row frequency = "2000">0.32</absorption_row>
+          <absorption_row frequency = "4000">0.35</absorption_row>
+        </absorption>
+      </domain>
+    </face>
+    <face>
+      <vertex x = "0" y = "18" z = "7.5"/>
+      <vertex x = "0" y = "12" z = "7.5"/>
+      <vertex x = "0" y = "12" z = "6.5"/>
+      <vertex x = "0" y = "18" z = "6.5"/>
+      <domain name = "arch_ac">
+        <absorption> <!--Штукатурка-->
+          <absorption_row frequency = "125">0.04</absorption_row>
+          <absorption_row frequency = "250">0.04</absorption_row>
+          <absorption_row frequency = "500">0.04</absorption_row>
+          <absorption_row frequency = "1000">0.06</absorption_row>
+          <absorption_row frequency = "2000">0.06</absorption_row>
+          <absorption_row frequency = "4000">0.03</absorption_row>
+        </absorption>
+      </domain>
+    </face>
+    <face>
+      <vertex x = "0" y = "18.75" z = "7.5"/>
+      <vertex x = "0" y = "18" z = "7.5"/>
+      <vertex x = "0" y = "18" z = "0"/>
+      <vertex x = "0" y = "18.75" z = "0"/>
+      <domain name = "arch_ac">
+        <absorption> <!--Штукатурка-->
+          <absorption_row frequency = "125">0.04</absorption_row>
+          <absorption_row frequency = "250">0.04</absorption_row>
+          <absorption_row frequency = "500">0.04</absorption_row>
+          <absorption_row frequency = "1000">0.06</absorption_row>
+          <absorption_row frequency = "2000">0.06</absorption_row>
+          <absorption_row frequency = "4000">0.03</absorption_row>
+        </absorption>
+      </domain>
+    </face>
+    <face>
+      <vertex x = "0" y = "30" z = "7.5"/>
+      <vertex x = "0" y = "18.75" z = "7.5"/>
+      <vertex x = "0" y = "18.75" z = "0"/>
+      <vertex x = "0" y = "30" z = "0"/>
+      <domain name = "arch_ac">
+        <absorption> <!--Панели-->
+          <absorption_row frequency = "125">0.25</absorption_row>
+          <absorption_row frequency = "250">0.15</absorption_row>
+          <absorption_row frequency = "500">0.06</absorption_row>
+          <absorption_row frequency = "1000">0.05</absorption_row>
+          <absorption_row frequency = "2000">0.04</absorption_row>
+          <absorption_row frequency = "4000">0.04</absorption_row>
+        </absorption>
+      </domain>
+    </face>
+  </polyobject>
+  <polyobject name = "Стена 2">
+    <face>
+      <vertex x = "11.25" y = "30" z = "0"/>
+      <vertex x = "0" y = "30" z = "0"/>
+      <vertex x = "0" y = "30" z = "7.5"/>
+      <vertex x = "11.25" y = "30" z = "7.5"/>
+      <domain name = "arch_ac">
+        <absorption> <!--Панели-->
+          <absorption_row frequency = "125">0.25</absorption_row>
+          <absorption_row frequency = "250">0.15</absorption_row>
+          <absorption_row frequency = "500">0.06</absorption_row>
+          <absorption_row frequency = "1000">0.05</absorption_row>
+          <absorption_row frequency = "2000">0.04</absorption_row>
+          <absorption_row frequency = "4000">0.04</absorption_row>
+        </absorption>
+      </domain>
+    </face>
+    <face>
+      <vertex x = "13.5" y = "30" z = "0"/>
+      <vertex x = "11.25" y = "30" z = "0"/>
+      <vertex x = "11.25" y = "30" z = "7.5"/>
+      <vertex x = "13.5" y = "30" z = "7.5"/>
+      <domain name = "arch_ac">
+        <absorption> <!--Штукатурка-->
+          <absorption_row frequency = "125">0.04</absorption_row>
+          <absorption_row frequency = "250">0.04</absorption_row>
+          <absorption_row frequency = "500">0.04</absorption_row>
+          <absorption_row frequency = "1000">0.06</absorption_row>
+          <absorption_row frequency = "2000">0.06</absorption_row>
+          <absorption_row frequency = "4000">0.03</absorption_row>
+        </absorption>
+      </domain>
+    </face>
+    <face>
+      <vertex x = "16.5" y = "30" z = "0"/>
+      <vertex x = "13.5" y = "30" z = "0"/>
+      <vertex x = "13.5" y = "30" z = "2.5"/>
+      <vertex x = "16.5" y = "30" z = "2.5"/>
+      <domain name = "arch_ac">
+        <absorption> <!--Двери-->
+          <absorption_row frequency = "125">0.03</absorption_row>
+          <absorption_row frequency = "250">0.02</absorption_row>
+          <absorption_row frequency = "500">0.05</absorption_row>
+          <absorption_row frequency = "1000">0.04</absorption_row>
+          <absorption_row frequency = "2000">0.04</absorption_row>
+          <absorption_row frequency = "4000">0.04</absorption_row>
+        </absorption>
+      </domain>
+    </face>
+    <face>
+      <vertex x = "16.5" y = "30" z = "2.5"/>
+      <vertex x = "13.5" y = "30" z = "2.5"/>
+      <vertex x = "13.5" y = "30" z = "7.5"/>
+      <vertex x = "16.5" y = "30" z = "7.5"/>
+      <domain name = "arch_ac">
+        <absorption> <!--Штукатурка-->
+          <absorption_row frequency = "125">0.04</absorption_row>
+          <absorption_row frequency = "250">0.04</absorption_row>
+          <absorption_row frequency = "500">0.04</absorption_row>
+          <absorption_row frequency = "1000">0.06</absorption_row>
+          <absorption_row frequency = "2000">0.06</absorption_row>
+          <absorption_row frequency = "4000">0.03</absorption_row>
+        </absorption>
+      </domain>
+    </face>
+    <face>
+      <vertex x = "18.75" y = "30" z = "0"/>
+      <vertex x = "16.5" y = "30" z = "0"/>
+      <vertex x = "16.5" y = "30" z = "7.5"/>
+      <vertex x = "18.75" y = "30" z = "7.5"/>
+      <domain name = "arch_ac">
+        <absorption> <!--Штукатурка-->
+          <absorption_row frequency = "125">0.04</absorption_row>
+          <absorption_row frequency = "250">0.04</absorption_row>
+          <absorption_row frequency = "500">0.04</absorption_row>
+          <absorption_row frequency = "1000">0.06</absorption_row>
+          <absorption_row frequency = "2000">0.06</absorption_row>
+          <absorption_row frequency = "4000">0.03</absorption_row>
+        </absorption>
+      </domain>
+    </face>
+    <face>
+      <vertex x = "30" y = "30" z = "0"/>
+      <vertex x = "18.75" y = "30" z = "0"/>
+      <vertex x = "18.75" y = "30" z = "7.5"/>
+      <vertex x = "30" y = "30" z = "7.5"/>
+      <domain name = "arch_ac">
+        <absorption> <!--Панели-->
+          <absorption_row frequency = "125">0.25</absorption_row>
+          <absorption_row frequency = "250">0.15</absorption_row>
+          <absorption_row frequency = "500">0.06</absorption_row>
+          <absorption_row frequency = "1000">0.05</absorption_row>
+          <absorption_row frequency = "2000">0.04</absorption_row>
+          <absorption_row frequency = "4000">0.04</absorption_row>
+        </absorption>
+      </domain>
+    </face>
+  </polyobject>
+  <polyobject name = "Стена 3">
+    <face>
+      <vertex x = "30" y = "30" z = "0"/>
+      <vertex x = "30" y = "18.75" z = "0"/>
+      <vertex x = "30" y = "18.75" z = "7.5"/>
+      <vertex x = "30" y = "30" z = "7.5"/>
+      <domain name = "arch_ac">
+        <absorption> <!--Плиты-->
+          <absorption_row frequency = "125">0.25</absorption_row>
+          <absorption_row frequency = "250">0.15</absorption_row>
+          <absorption_row frequency = "500">0.06</absorption_row>
+          <absorption_row frequency = "1000">0.05</absorption_row>
+          <absorption_row frequency = "2000">0.04</absorption_row>
+          <absorption_row frequency = "4000">0.04</absorption_row>
+        </absorption>
+      </domain>
+    </face>
+    <face>
+      <vertex x = "30" y = "18.75" z = "0"/>
+      <vertex x = "30" y = "18" z = "0"/>
+      <vertex x = "30" y = "18" z = "7.5"/>
+      <vertex x = "30" y = "18.75" z = "7.5"/>
+      <domain name = "arch_ac">
+        <absorption> <!--Штукатурка-->
+          <absorption_row frequency = "125">0.04</absorption_row>
+          <absorption_row frequency = "250">0.04</absorption_row>
+          <absorption_row frequency = "500">0.04</absorption_row>
+          <absorption_row frequency = "1000">0.06</absorption_row>
+          <absorption_row frequency = "2000">0.06</absorption_row>
+          <absorption_row frequency = "4000">0.03</absorption_row>
+        </absorption>
+      </domain>
+    </face>
+    <face>
+      <vertex x = "30" y = "18" z = "0"/>
+      <vertex x = "30" y = "12" z = "0"/>
+      <vertex x = "30" y = "12" z = "2.5"/>
+      <vertex x = "30" y = "18" z = "2.5"/>
+      <domain name = "arch_ac">
+        <absorption> <!--Штукатурка-->
+          <absorption_row frequency = "125">0.04</absorption_row>
+          <absorption_row frequency = "250">0.04</absorption_row>
+          <absorption_row frequency = "500">0.04</absorption_row>
+          <absorption_row frequency = "1000">0.06</absorption_row>
+          <absorption_row frequency = "2000">0.06</absorption_row>
+          <absorption_row frequency = "4000">0.03</absorption_row>
+        </absorption>
+      </domain>
+    </face>
+    <face>
+      <vertex x = "30" y = "18" z = "2.5"/>
+      <vertex x = "30" y = "12" z = "2.5"/>
+      <vertex x = "30" y = "12" z = "6.5"/>
+      <vertex x = "30" y = "18" z = "6.5"/>
+      <domain name = "arch_ac">
+        <absorption> <!--Экран-->
+          <absorption_row frequency = "125">0.04</absorption_row>
+          <absorption_row frequency = "250">0.07</absorption_row>
+          <absorption_row frequency = "500">0.13</absorption_row>
+          <absorption_row frequency = "1000">0.22</absorption_row>
+          <absorption_row frequency = "2000">0.32</absorption_row>
+          <absorption_row frequency = "4000">0.35</absorption_row>
+        </absorption>
+      </domain>
+    </face>
+    <face>
+      <vertex x = "30" y = "18" z = "6.5"/>
+      <vertex x = "30" y = "12" z = "6.5"/>
+      <vertex x = "30" y = "12" z = "7.5"/>
+      <vertex x = "30" y = "18" z = "7.5"/>
+      <domain name = "arch_ac">
+        <absorption> <!--Штукатурка-->
+          <absorption_row frequency = "125">0.04</absorption_row>
+          <absorption_row frequency = "250">0.04</absorption_row>
+          <absorption_row frequency = "500">0.04</absorption_row>
+          <absorption_row frequency = "1000">0.06</absorption_row>
+          <absorption_row frequency = "2000">0.06</absorption_row>
+          <absorption_row frequency = "4000">0.03</absorption_row>
+        </absorption>
+      </domain>
+    </face>
+    <face>
+      <vertex x = "30" y = "12" z = "0"/>
+      <vertex x = "30" y = "11.25" z = "0"/>
+      <vertex x = "30" y = "11.25" z = "7.5"/>
+      <vertex x = "30" y = "12" z = "7.5"/>
+      <domain name = "arch_ac">
+        <absorption> <!--Штукатурка-->
+          <absorption_row frequency = "125">0.04</absorption_row>
+          <absorption_row frequency = "250">0.04</absorption_row>
+          <absorption_row frequency = "500">0.04</absorption_row>
+          <absorption_row frequency = "1000">0.06</absorption_row>
+          <absorption_row frequency = "2000">0.06</absorption_row>
+          <absorption_row frequency = "4000">0.03</absorption_row>
+        </absorption>
+      </domain>
+    </face>
+    <face>
+      <vertex x = "30" y = "11.25" z = "0"/>
+      <vertex x = "30" y = "0" z = "0"/>
+      <vertex x = "30" y = "0" z = "7.5"/>
+      <vertex x = "30" y = "11.25" z = "7.5"/>
+      <domain name = "arch_ac">
+        <absorption> <!--Панели-->
+          <absorption_row frequency = "125">0.25</absorption_row>
+          <absorption_row frequency = "250">0.15</absorption_row>
+          <absorption_row frequency = "500">0.06</absorption_row>
+          <absorption_row frequency = "1000">0.05</absorption_row>
+          <absorption_row frequency = "2000">0.04</absorption_row>
+          <absorption_row frequency = "4000">0.04</absorption_row>
+        </absorption>
+      </domain>
+    </face>
+  </polyobject>
+  <polyobject name = "Стена 4">
+    <face>
+      <vertex x = "30" y = "0" z = "0"/>
+      <vertex x = "18.75" y = "0" z = "0"/>
+      <vertex x = "18.75" y = "0" z = "7.5"/>
+      <vertex x = "30" y = "0" z = "7.5"/>
+      <domain name = "arch_ac">
+        <absorption> <!--Плиты-->
+          <absorption_row frequency = "125">0.25</absorption_row>
+          <absorption_row frequency = "250">0.15</absorption_row>
+          <absorption_row frequency = "500">0.06</absorption_row>
+          <absorption_row frequency = "1000">0.05</absorption_row>
+          <absorption_row frequency = "2000">0.04</absorption_row>
+          <absorption_row frequency = "4000">0.04</absorption_row>
+        </absorption>
+      </domain>
+    </face>
+    <face>
+      <vertex x = "18.75" y = "0" z = "0"/>
+      <vertex x = "16.5" y = "0" z = "0"/>
+      <vertex x = "16.5" y = "0" z = "7.5"/>
+      <vertex x = "18.75" y = "0" z = "7.5"/>
+      <domain name = "arch_ac">
+        <absorption> <!--Штукатурка-->
+          <absorption_row frequency = "125">0.04</absorption_row>
+          <absorption_row frequency = "250">0.04</absorption_row>
+          <absorption_row frequency = "500">0.04</absorption_row>
+          <absorption_row frequency = "1000">0.06</absorption_row>
+          <absorption_row frequency = "2000">0.06</absorption_row>
+          <absorption_row frequency = "4000">0.03</absorption_row>
+        </absorption>
+      </domain>
+    </face>
+    <face>
+      <vertex x = "16.5" y = "0" z = "2.5"/>
+      <vertex x = "13.5" y = "0" z = "2.5"/>
+      <vertex x = "13.5" y = "0" z = "7.5"/>
+      <vertex x = "16.5" y = "0" z = "7.5"/>
+      <domain name = "arch_ac">
+        <absorption> <!--Двери-->
+          <absorption_row frequency = "125">0.03</absorption_row>
+          <absorption_row frequency = "250">0.02</absorption_row>
+          <absorption_row frequency = "500">0.05</absorption_row>
+          <absorption_row frequency = "1000">0.04</absorption_row>
+          <absorption_row frequency = "2000">0.04</absorption_row>
+          <absorption_row frequency = "4000">0.04</absorption_row>
+        </absorption>
+      </domain>
+    </face>
+    <face>
+      <vertex x = "16.5" y = "0" z = "0"/>
+      <vertex x = "13.5" y = "0" z = "0"/>
+      <vertex x = "13.5" y = "0" z = "2.5"/>
+      <vertex x = "16.5" y = "0" z = "2.5"/>
+      <domain name = "arch_ac">
+        <absorption> <!--Штукатурка-->
+          <absorption_row frequency = "125">0.04</absorption_row>
+          <absorption_row frequency = "250">0.04</absorption_row>
+          <absorption_row frequency = "500">0.04</absorption_row>
+          <absorption_row frequency = "1000">0.06</absorption_row>
+          <absorption_row frequency = "2000">0.06</absorption_row>
+          <absorption_row frequency = "4000">0.03</absorption_row>
+        </absorption>
+      </domain>
+    </face>
+    <face>
+      <vertex x = "13.5" y = "0" z = "0"/>
+      <vertex x = "11.25" y = "0" z = "0"/>
+      <vertex x = "11.25" y = "0" z = "7.5"/>
+      <vertex x = "13.5" y = "0" z = "7.5"/>
+      <domain name = "arch_ac">
+        <absorption> <!--Штукатурка-->
+          <absorption_row frequency = "125">0.04</absorption_row>
+          <absorption_row frequency = "250">0.04</absorption_row>
+          <absorption_row frequency = "500">0.04</absorption_row>
+          <absorption_row frequency = "1000">0.06</absorption_row>
+          <absorption_row frequency = "2000">0.06</absorption_row>
+          <absorption_row frequency = "4000">0.03</absorption_row>
+        </absorption>
+      </domain>
+    </face>
+    <face>
+      <vertex x = "11.25" y = "0" z = "0"/>
+      <vertex x = "0" y = "0" z = "0"/>
+      <vertex x = "0" y = "0" z = "7.5"/>
+      <vertex x = "11.25" y = "0" z = "7.5"/>
+      <domain name = "arch_ac">
+        <absorption> <!--Плиты-->
+          <absorption_row frequency = "125">0.25</absorption_row>
+          <absorption_row frequency = "250">0.15</absorption_row>
+          <absorption_row frequency = "500">0.06</absorption_row>
+          <absorption_row frequency = "1000">0.05</absorption_row>
+          <absorption_row frequency = "2000">0.04</absorption_row>
+          <absorption_row frequency = "4000">0.04</absorption_row>
+        </absorption>
+      </domain>
+    </face>
+  </polyobject>
+  <polyobject name = "Пол">
+    <face>
+      <vertex x = "30" y = "30" z = "0"/>
+      <vertex x = "0" y = "30" z = "0"/>
+      <vertex x = "0" y = "0" z = "0"/>
+      <vertex x = "30" y = "0" z = "0"/>
+      <domain name = "arch_ac">
+        <absorption> <!--Ковровое покрытие-->
+          <absorption_row frequency = "125">0.12</absorption_row>
+          <absorption_row frequency = "250">0.14</absorption_row>
+          <absorption_row frequency = "500">0.23</absorption_row>
+          <absorption_row frequency = "1000">0.32</absorption_row>
+          <absorption_row frequency = "2000">0.39</absorption_row>
+          <absorption_row frequency = "4000">0.42</absorption_row>
+        </absorption>
+      </domain>
+    </face>
+  </polyobject>
+  <polyobject name = "Потолок">
+    <face>
+      <vertex x = "30" y = "0" z = "7.5"/>
+      <vertex x = "0" y = "0" z = "7.5"/>
+      <vertex x = "0" y = "30" z = "7.5"/>
+      <vertex x = "30" y = "30" z = "7.5"/>
+      <domain name = "arch_ac">
+        <absorption> <!--Штукатурка-->
+          <absorption_row frequency = "125">0.04</absorption_row>
+          <absorption_row frequency = "250">0.04</absorption_row>
+          <absorption_row frequency = "500">0.04</absorption_row>
+          <absorption_row frequency = "1000">0.06</absorption_row>
+          <absorption_row frequency = "2000">0.06</absorption_row>
+          <absorption_row frequency = "4000">0.03</absorption_row>
+        </absorption>
+      </domain>
+    </face>
+  </polyobject>
+  <sourceobject>
+    <position x = "14" y = "4.4" z = "1.2"/>
+    <direction x = "0" y = "1" z = "0"/>
+    <top x = "0" y = "0" z = "1"/>
+    <domain name = "arch_ac">
+      <rp>
+        <function>F(freq, theta, phi) = (1 + cos(theta)) * 0.5 * 0.01</function>
+      </rp>
+      <afc>
+        <afc_row frequency = "125">0.018456914</afc_row>
+        <afc_row frequency = "250">0.015403295</afc_row>
+        <afc_row frequency = "500">0.018799808</afc_row>
+        <afc_row frequency = "1000">0.010629603</afc_row>
+        <afc_row frequency = "2000">0.004951132</afc_row>
+        <afc_row frequency = "4000">0.004816578</afc_row>
+      </afc>
+    </domain>
+  </sourceobject>
+  <sourceobject>
+    <position x = "5" y = "4.4" z = "1.2"/>
+    <direction x = "0" y = "1" z = "0"/>
+    <top x = "0" y = "0" z = "1"/>
+    <domain name = "arch_ac">
+      <rp>
+        <function>F(freq, theta, phi) = (1 + cos(theta)) * 0.5 * 0.01</function>
+      </rp>
+      <afc>
+        <afc_row frequency = "125">0.018456914</afc_row>
+        <afc_row frequency = "250">0.015403295</afc_row>
+        <afc_row frequency = "500">0.018799808</afc_row>
+        <afc_row frequency = "1000">0.010629603</afc_row>
+        <afc_row frequency = "2000">0.004951132</afc_row>
+        <afc_row frequency = "4000">0.004816578</afc_row>
+      </afc>
+    </domain>
+  </sourceobject>
+  <sourceobject>
+    <position x = "18" y = "4.4" z = "1.2"/>
+    <direction x = "0" y = "1" z = "0"/>
+    <top x = "0" y = "0" z = "1"/>
+    <domain name = "arch_ac">
+      <rp>
+        <function>F(freq, theta, phi) = (1 + cos(theta)) * 0.5 * 0.01</function>
+      </rp>
+      <afc>
+        <afc_row frequency = "125">0.018456914</afc_row>
+        <afc_row frequency = "250">0.015403295</afc_row>
+        <afc_row frequency = "500">0.018799808</afc_row>
+        <afc_row frequency = "1000">0.010629603</afc_row>
+        <afc_row frequency = "2000">0.004951132</afc_row>
+        <afc_row frequency = "4000">0.004816578</afc_row>
+      </afc>
+    </domain>
+  </sourceobject>
+  <sourceobject>
+    <position x = "16" y = "5.4" z = "3.2"/>
+    <direction x = "0" y = "1" z = "0"/>
+    <top x = "0" y = "0" z = "1"/>
+    <domain name = "arch_ac">
+      <rp>
+        <function>F(freq, theta, phi) = (1 + cos(theta)) * 0.5 * 0.01</function>
+      </rp>
+      <afc>
+        <afc_row frequency = "125">0.018456914</afc_row>
+        <afc_row frequency = "250">0.015403295</afc_row>
+        <afc_row frequency = "500">0.018799808</afc_row>
+        <afc_row frequency = "1000">0.010629603</afc_row>
+        <afc_row frequency = "2000">0.004951132</afc_row>
+        <afc_row frequency = "4000">0.004816578</afc_row>
+      </afc>
+    </domain>
+  </sourceobject>
+  <plainobject>
+    <position x = "0" y = "0" z = "1.2"/>
+    <v1 x = "1" y = "0" z = "0"/>
+    <v2 x = "0" y = "1" z = "0"/>
+	<grid step="0.03" />
+  </plainobject>
+</model>
